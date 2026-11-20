@@ -26,7 +26,7 @@ Solves m·x'' = F − c·x' − k·x with m = 2 kg, c = 2 N·s/m, k = 20 N/m. Th
 
 \### PD-controlled cars (`PD\_Control2Cars.slx`)
 
-Car 1 drives at a constant 10 m/s from x = 50 m. Car 2 starts at rest and uses a PD controller on the position error to catch up with car 1 and match its speed.
+Car 1 drives at a constant 10 m/s from x = 50 m. Car 2 starts at rest and uses a PD controller on the position error to catch up with car 1 and match its speed. Kp = 1,  Kd = 2.
 
 
 
