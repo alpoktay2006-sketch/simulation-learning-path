@@ -1,5 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
+from pathlib import Path
+
 
 g = 9.81
 x0, y0 = 0 , 50
@@ -23,4 +25,5 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.xlabel('x (m)')
 plt.ylabel('y (m)')
 plt.grid(True)
+plt.savefig(Path(__file__).parent / 'projectile.png', dpi=150, bbox_inches='tight')
 plt.show()
